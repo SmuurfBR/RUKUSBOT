@@ -45,7 +45,7 @@ var User = new Schema({
     },
     background: {
         type: String,
-        default: "https://i.imgur.com/J3GPYFM.jpg"
+        default: "https://i.imgur.com/zojjwCf.png"
     },
     ban: {
         type: Boolean,
@@ -103,7 +103,7 @@ var Guild = new Schema({
     },
     desc: {
         type: String,
-        default: "Use p!config desc <descrição do servidor> para setar uma descrição."
+        default: "Use r!config desc <descrição do servidor> para setar uma descrição."
     },
     box: {
         type: Boolean,
