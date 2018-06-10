@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-mongoose.connect(process.env.database, {
+mongoose.connect(process.env.dbuser, {
     useMongoClient: true
 }, (err) => {
     if (err) return console.log("Erro ao conectar no database!");
