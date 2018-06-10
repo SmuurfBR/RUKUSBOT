@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-mongoose.connect(process.env.database, {
+mongoose.connect("mongodb://rukusdb:poipoip0@ds153980.mlab.com:53980/rukusdb", {
     useMongoClient: true
 }, (err) => {
     if (err) return console.log("Erro ao conectar no database!");
@@ -45,7 +45,7 @@ var User = new Schema({
     },
     background: {
         type: String,
-        default: "https://i.imgur.com/J3GPYFM.jpg"
+        default: "https://i.imgur.com/zojjwCf.png"
     },
     ban: {
         type: Boolean,
@@ -103,7 +103,7 @@ var Guild = new Schema({
     },
     desc: {
         type: String,
-        default: "Use p!config desc <descrição do servidor> para setar uma descrição."
+        default: "Use r!config desc <descrição do servidor> para setar uma descrição."
     },
     box: {
         type: Boolean,
