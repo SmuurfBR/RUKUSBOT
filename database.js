@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-mongoose.connect("mongodb://rukusdb:poipoip0@ds153980.mlab.com:53980/rukusdb", {
+mongoose.connect(process.env.database, {
     useMongoClient: true
 }, (err) => {
     if (err) return console.log("Erro ao conectar no database!");
