@@ -3,6 +3,10 @@
   "red": "#b70000",
   "orange": "#ff6a00",
   "green": "#00ff26",
+<<<<<<< HEAD
   "purple": "#d604cf",
   "ftnApi": "365cbe23-843d-499d-bc48-55024b024dbb"
+=======
+  "purple": "#d604cf"
+>>>>>>> 04275965c6bdf93faa0b26eea72301343a9454ab
 }

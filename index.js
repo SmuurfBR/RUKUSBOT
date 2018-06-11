@@ -19,6 +19,7 @@ const gifSearch = require("gif-search");
 var Jimp = require("jimp");
 const os = require('os-utils');
 const clbot = new Cleverbot;
+const Fortnite = require("fortnite");
 
 clbot.configure({
     botapi: process.env.cleverapi
