@@ -25,7 +25,7 @@ exports.run = (client, message, args) => {
                     }
                 }
 
-                if (message.content.startsWith("r!box raro")) {
+                if (message.content.startsWith("r!box rara")) {
                     var premio;
                     if(documento.raro > 0){
                         premio = Math.round(Math.random() * 1400)
@@ -38,7 +38,7 @@ exports.run = (client, message, args) => {
                     }
                 }
 
-                if (message.content.startsWith("r!box epico")) {
+                if (message.content.startsWith("r!box epica")) {
                     var premio;
                     if(documento.epico > 0){
                         premio = Math.round(Math.random() * 2100)
@@ -51,7 +51,7 @@ exports.run = (client, message, args) => {
                     }
                 }
 
-                if (message.content.startsWith("r!box lendario")) {
+                if (message.content.startsWith("r!box lendaria")) {
                     var premio;
                     if(documento.lendario > 0){
                         premio = Math.round(Math.random() * 4500)
@@ -85,7 +85,7 @@ exports.run = (client, message, args) => {
                     }
                 }
 
-                if (message.content.startsWith("r!box drop raro")) {
+                if (message.content.startsWith("r!box drop rara")) {
                     if(!desenvolvedores.includes(message.author.id)) return message.reply("**Sem permissão. :confused:**");
                     if(servidord.caixa){
                         message.reply("**Uma caixa ja foi dropada.**");
@@ -98,7 +98,7 @@ exports.run = (client, message, args) => {
                     }
                 }
 
-                if (message.content.startsWith("r!box drop epico")) {
+                if (message.content.startsWith("r!box drop epica")) {
                     if(!desenvolvedores.includes(message.author.id)) return message.reply("**Sem permissão. :confused:**");
                     if(servidord.caixa){
                         message.reply("**Uma caixa ja foi dropada.**");
@@ -111,7 +111,7 @@ exports.run = (client, message, args) => {
                     }
                 }
 
-                if (message.content.startsWith("r!box drop lendario")) {
+                if (message.content.startsWith("r!box drop lendaria")) {
                     if(!desenvolvedores.includes(message.author.id)) return message.reply("**Sem permissão. :confused:**");
                     if(servidord.caixa){
                         message.reply("**Uma caixa ja foi dropada.**");
