@@ -1,4 +1,4 @@
-var mongoose = require("mongoose");
+﻿var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 mongoose.connect(process.env.database, {
     useMongoClient: true
