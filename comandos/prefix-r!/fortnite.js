@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const botconfig = require('../../botconfig.json');
-const Fortnite = require("fortnite.js");
+const Fortnite = require("fortnite");
 const ftnApi = new Fortnite(botconfig.ftnApi);
 const currentSeason = "4";
 
