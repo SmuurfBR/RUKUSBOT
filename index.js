@@ -620,7 +620,7 @@ client.on('message', message => {
     if(message.content.startsWith(prefix + 'eval') || message.content.startsWith(prefix + 'eval')) {
         var args = message.content.split(' ').slice(1)
 
-        if(message.author.id === "314460143909601280" || message.author.id === '399302842688733195' || message.author.id === '286144811680137218') {
+        if(message.author.id === '314460143909601280') {
             getEval(message, args);
         } else {
             message.channel.sendMessage(`Ei ${message.author.username}, você não tem permissão para usar este comando!`)
