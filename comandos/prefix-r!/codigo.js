@@ -13,4 +13,4 @@ bot.on("message", async message => {
   if(cmd === `${prefix}botinfo`){
 
     return message.channel.send("Código do bot feito por Márcio#1636") ;
-  }
+  });
